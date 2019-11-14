@@ -5,7 +5,7 @@
 sxhkd &
 compton -b
 numlockx on &
-feh --bg-scale ~/Pictures/Wallpapers/beach.jpeg
+feh --bg-scale ~/Pictures/Wallpapers/space.png
 wal -R &
 autocutsel &
 xsetroot -cursor_name left_ptr
@@ -26,8 +26,9 @@ bspc config gapless_monocle      true
 bspc rule -a discord desktop='^2' state=floating
 bspc rule -a firefox desktop='^1'
 bspc rule -a Lutris desktop='^3'
-bspc rule -a Upwork desktop='^4'
+bspc rule -a Upwork desktop='^2'
 bspc rule -a Skype desktop='^4'
+bspc rule -a KeePassXC desktop ='^6'
 bspc rule -a Screenkey manage=off
 
 # source the colors.
