@@ -1,11 +1,12 @@
 #! /bin/sh
 
 ### autostart ###
+~/.config/screens.sh &
 ~/.config/polybar/launch.sh &
 sxhkd &
 compton -b
 numlockx on &
-feh --bg-scale ~/Pictures/Wallpapers/space.png
+feh --bg-scale ~/Pictures/Wallpapers/mnts.jpg
 wal -R &
 autocutsel &
 xsetroot -cursor_name left_ptr
@@ -28,7 +29,7 @@ bspc rule -a firefox desktop='^1'
 bspc rule -a Lutris desktop='^3'
 bspc rule -a Upwork desktop='^2'
 bspc rule -a Skype desktop='^4'
-bspc rule -a KeePassXC desktop ='^6'
+bspc rule -a keepassxc desktop ='^6'
 bspc rule -a Screenkey manage=off
 
 # source the colors.
@@ -42,3 +43,4 @@ bspc config focused_border_color "$color15"
 bspc config presel_feedback_color "$color1"
 # Use the line below if you are on bspwm < 0.9.4
 #bspc config presel_border_color "$color1"
+
