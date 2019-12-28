@@ -14,9 +14,9 @@ alt + d
 alt + g
     firefox
 
-# atom
+# vs code
 super + a
-      atom 
+      code 
 
 # thunar
 alt + super + t
