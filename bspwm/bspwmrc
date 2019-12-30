@@ -1,12 +1,12 @@
 #! /bin/sh
 
 ### autostart ###
-xrandr --output HDMI-1 --mode 1368x768 &
+xrandr --output HDMI-1 --mode 1366x768 &
 ~/.config/polybar/launch.sh &
 sxhkd &
 compton -b
 numlockx on &
-feh --bg-scale ~/Pictures/Wallpapers/mnts.jpg
+feh --bg-scale ~/Pictures/Wallpapers/space.png
 wal -R &
 autocutsel &
 xsetroot -cursor_name left_ptr
@@ -24,12 +24,12 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-bspc rule -a discord desktop='^2' state=floating
+bspc rule -a vocal desktop='^2' state=floating
 bspc rule -a firefox desktop='^1'
 bspc rule -a Lutris desktop='^3'
 bspc rule -a Upwork desktop='^2'
 bspc rule -a Skype desktop='^4'
-bspc rule -a keepassxc desktop ='^6'
+bspc rule -a keepassxc desktop ='^3'
 bspc rule -a Screenkey manage=off
 
 # source the colors.
