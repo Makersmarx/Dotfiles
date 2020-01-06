@@ -20,7 +20,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias up="sudo eix-sync"
 alias upd="sudo emerge -auvqDN @world"
-alias rbc="cd /home/makers/premium-robert-biehn"
+alias rbc="cd /home/makers/rbclass"
 alias rbd="cd /home/makers/Dotfiles"
 
 # Import colorscheme from 'wal' asynchronously
