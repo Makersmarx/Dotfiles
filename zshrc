@@ -1,4 +1,5 @@
-export ZSH="/home/makers/.oh-my-zsh"
+# Path to your oh-my-zsh installation.
+  export ZSH="/home/makers/.oh-my-zsh"
 
 # theme
 ZSH_THEME="rkj-repos" 
@@ -18,8 +19,9 @@ source $ZSH/oh-my-zsh.sh
 # alias\s
 
 alias up="sudo eix-sync"
-alias upd="sudo emerge -auvDN @world"
-
+alias upd="sudo emerge -auvqDN @world"
+alias rbc="cd /home/makers/premium-robert-biehn"
+alias rbd="cd /home/makers/Dotfiles"
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
