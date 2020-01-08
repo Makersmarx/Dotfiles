@@ -12,11 +12,11 @@ alt + d
 
 # firefox
 alt + g
-    firefox
+    firefox-bin
 
-# vs code
+# atom
 super + a
-      code 
+      atom 
 
 # thunar
 alt + super + t
