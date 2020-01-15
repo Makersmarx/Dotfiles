@@ -1,0 +1,45 @@
+"*":
+  "accents-ui":
+    accentColor: "#ff6a00"
+    fontSize: 14
+    hexColor: "#ff6a00"
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+    html:
+      beautify_on_save: true
+    js:
+      beautify_on_save: true
+  "atom-clock":
+    showClockIcon: true
+    showTooltip: true
+  "atom-material-ui":
+    colors:
+      genAccent: true
+  autosave:
+    enabled: true
+  core:
+    autoHideMenuBar: true
+    automaticallyUpdate: false
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "gruvbox-plus-syntax"
+    ]
+  editor:
+    softWrap: true
+  "exception-reporting":
+    userId: "20f0c3c1-7088-4a5e-b0b5-c7af7e335d97"
+  "linter-ui-default":
+    panelHeight: 279
+    showPanel: true
+  minimap: {}
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "homebrew"
+    toggles:
+      autoClose: true
+  welcome:
+    showOnStartup: false
