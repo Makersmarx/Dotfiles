@@ -1,7 +1,6 @@
 #! /bin/sh
 
 ### autostart ###
-xrandr --output HDMI-1 --mode 1366x768 &
 ~/.config/polybar/launch.sh &
 sxhkd &
 compton -b
@@ -9,6 +8,7 @@ numlockx on &
 feh --bg-scale ~/Pictures/Wallpapers/space.png
 wal -R &
 autocutsel &
+keepassxc &
 xsetroot -cursor_name left_ptr
 
 
@@ -29,7 +29,8 @@ bspc rule -a firefox desktop='^1'
 bspc rule -a Lutris desktop='^3'
 bspc rule -a Upwork desktop='^2'
 bspc rule -a Skype desktop='^4'
-bspc rule -a keepassxc desktop ='^3'
+bspc rule -a KeePassXC desktop ='^1' state=floating
+bspc rule -a Slack desktop ='^3' state=floating
 bspc rule -a Screenkey manage=off
 
 # source the colors.
