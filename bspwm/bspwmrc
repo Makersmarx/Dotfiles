@@ -5,7 +5,7 @@
 sxhkd &
 compton -b
 numlockx on &
-feh --bg-scale ~/Pictures/Wallpapers/space.png
+feh --bg-scale ~/Pictures/Wallpapers/shuttle.jpeg &
 wal -R &
 autocutsel &
 keepassxc &
@@ -27,10 +27,9 @@ bspc config gapless_monocle      true
 bspc rule -a gpodder desktop='^2' state=floating
 bspc rule -a firefox desktop='^1'
 bspc rule -a Lutris desktop='^3'
-bspc rule -a Upwork desktop='^2'
 bspc rule -a Skype desktop='^4'
-bspc rule -a KeePassXC desktop ='^1' state=floating
-bspc rule -a Slack desktop ='^3' state=floating
+bspc rule -a KeePassXC desktop ='^1'
+bspc rule -a Slack desktop ='^3'
 bspc rule -a Screenkey manage=off
 
 # source the colors.
