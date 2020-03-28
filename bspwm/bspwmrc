@@ -5,10 +5,9 @@
 sxhkd &
 compton -b
 numlockx on &
-feh --bg-scale ~/Pictures/Wallpapers/shuttle.jpeg &
+feh --bg-scale ~/Pictures/Wallpapers/space.png &
 wal -R &
 autocutsel &
-keepassxc &
 xsetroot -cursor_name left_ptr
 
 
@@ -25,9 +24,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a gpodder desktop='^2' state=floating
-bspc rule -a firefox desktop='^1'
 bspc rule -a Lutris desktop='^3'
-bspc rule -a Skype desktop='^4'
 bspc rule -a KeePassXC desktop ='^1'
 bspc rule -a Slack desktop ='^3'
 bspc rule -a Screenkey manage=off

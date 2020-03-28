@@ -18,6 +18,10 @@ alt + g
 super + a
       atom 
 
+# ranger
+alt + space 
+     urxvt -e ranger
+
 # thunar
 alt + super + t
             thunar

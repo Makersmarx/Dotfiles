@@ -2,7 +2,7 @@
   export ZSH="/home/makers/.oh-my-zsh"
 
 # theme
-ZSH_THEME="rkj-repos" 
+ZSH_THEME="rkj-repos"
 
 
 # auto-correction.
@@ -12,6 +12,7 @@ ENABLE_CORRECTION="true"
 
 plugins=(
   git
+  ssh-agent
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -38,5 +39,3 @@ source ~/.cache/wal/colors-tty.sh
 alias config='/usr/bin/git --git-dir=/home/makers/.cfg/ --work-tree=/home/makers'
 
 neofetch
-
-
