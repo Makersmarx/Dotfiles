@@ -19,12 +19,12 @@ super + a
       atom 
 
 # ranger
-alt + space 
-     urxvt -e ranger
+#alt + space 
+    # urxvt -e ranger
 
 # thunar
-alt + super + t
-            thunar
+alt + space
+        thunar
 
 # make sxhkd reload its configuration files:
 alt + Escape
@@ -67,17 +67,16 @@ alt + shift + g
 alt + Print
       scrot '%Y-%m-%d_%H.%M.%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshot' -q 100 
 
-# Increase volume
-"pactl set-sink-volume 0 +10"
-   XF86AudioRaiseVolume
+# media keys
+XF86AudioRaiseVolume
+	pactl set-sink-volume 0 +5%
 
-# Decrease volume
-"pactl set-sink-volume 0 -10"
-   XF86AudioLowerVolume
+XF86AudioLowerVolume
+	pactl set-sink-volume 0 -5%
 
-# Mute volume
-"pactl set-sink-mute 0 toggle"
-   XF86AudioMute
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+
 
 #
 # state/flags
