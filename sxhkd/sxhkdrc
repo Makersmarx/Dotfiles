@@ -16,11 +16,7 @@ alt + g
 
 # atom
 super + a
-      atom 
-
-# ranger
-#alt + space 
-    # urxvt -e ranger
+      atom
 
 # thunar
 alt + space
@@ -65,7 +61,7 @@ alt + shift + g
 
 # screenshot
 alt + Print
-      scrot '%Y-%m-%d_%H.%M.%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshot' -q 100 
+      scrot '%Y-%m-%d_%H.%M.%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshot' -q 100
 
 # media keys
 XF86AudioRaiseVolume
@@ -159,4 +155,3 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-
