@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-BAR_ICON=""
-NOTIFY_ICON=/usr/share/icons/Papirus/32x32/apps/system-software-update.svg
+BAR_ICON=""
+NOTIFY_ICON=/usr/share/icons/Arc/categories/symbolic/preferences-other-symbolic.svg
 
 get_total_updates() { UPDATES=$(checkupdates 2>/dev/null | wc -l); }
 
