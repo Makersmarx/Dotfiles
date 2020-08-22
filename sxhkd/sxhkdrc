@@ -14,9 +14,9 @@ alt + d
 alt + g
     firefox-bin
 
-# atom
+# VScode
 super + a
-      atom
+      code
 
 # ranger
 #alt + space
