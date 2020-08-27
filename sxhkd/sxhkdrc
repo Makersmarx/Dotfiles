@@ -18,6 +18,10 @@ alt + g
 super + a
       code
 
+# Atom
+	super + b
+			atom
+
 # ranger
 #alt + space
     # urxvt -e ranger
