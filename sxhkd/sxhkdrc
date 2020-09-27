@@ -10,20 +10,16 @@ alt + Return
 alt + d
 	rofi -show drun
 
-# firefox
+# browser
 alt + g
     firefox-bin
 
 # VScode
 super + a
-      code
-
-# Atom
-	super + b
-			atom
+      code 
 
 # ranger
-#alt + space
+#alt + space 
     # urxvt -e ranger
 
 # thunar
@@ -69,7 +65,7 @@ alt + shift + g
 
 # screenshot
 alt + Print
-      scrot '%Y-%m-%d_%H.%M.%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshot' -q 100
+      scrot '%Y-%m-%d_%H.%M.%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshot' -q 100 
 
 # media keys
 XF86AudioRaiseVolume
@@ -163,3 +159,4 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
