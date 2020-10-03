@@ -18,13 +18,10 @@ alt + g
 super + a
       code 
 
-# ranger
-#alt + space 
-    # urxvt -e ranger
 
-# thunar
+# pcmanfm
 alt + space
-        thunar
+        pcmanfm
 
 # make sxhkd reload its configuration files:
 alt + Escape
