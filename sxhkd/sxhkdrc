@@ -19,9 +19,9 @@ super + a
       code 
 
 
-# pcmanfm
+# thunar
 alt + space
-        pcmanfm
+        thunar
 
 # make sxhkd reload its configuration files:
 alt + Escape
