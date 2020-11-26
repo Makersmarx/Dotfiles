@@ -7,7 +7,7 @@ xrandr --output DVI-D-1 --auto --left-of HDMI-A-0
 sxhkd &
 numlockx on &
 picom -b &
-feh --bg-scale --no-xinerama ~/Pictures/Wallpapers/bubs.jpg &
+feh --bg-scale --no-xinerama ~/Pictures/Wallpapers/road.jpeg &
 wal -R &
 autocutsel &
 xsetroot -cursor_name left_ptr
