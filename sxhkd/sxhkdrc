@@ -12,11 +12,11 @@ alt + d
 
 # browser
 alt + g
-    firefox-bin
+    google-chrome-stable
 
 # VScode
 super + a
-       code	
+       vscode	
 
 # thunar
 alt + space

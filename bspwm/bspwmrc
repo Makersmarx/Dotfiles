@@ -2,12 +2,13 @@
 
 ### autostart ###
 ~/.config/polybar/launch.sh &
+~/btautoconnect.sh &
 xrandr --output HDMI-A-0 --auto  --primary
 xrandr --output DVI-D-1 --auto --left-of HDMI-A-0
 sxhkd &
 numlockx on &
 picom -b &
-feh --bg-center ~/Pictures/Wallpapers/boxes.jpg &
+feh --bg-fill ~/Pictures/Wallpapers/gruvbox.png &
 wal -R &
 autocutsel &
 xsetroot -cursor_name left_ptr
