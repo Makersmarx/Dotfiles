@@ -16,11 +16,11 @@ alt + g
 
 # VScode
 super + a
-       vscode	
+       code	
 
 # thunar
 alt + space
-        thunar
+       thunar
 
 # make sxhkd reload its configuration files:
 alt + Escape

@@ -1,3 +1,5 @@
+
+  
 # Path to your oh-my-zsh installation.
   export ZSH="/home/makers/.oh-my-zsh"
 
@@ -22,8 +24,6 @@ source $ZSH/oh-my-zsh.sh
 alias up="sudo eix-sync"
 alias upd="sudo emerge -auvqDN @world"
 alias flat="flatpak update"
-alias rbc="cd /home/makers/rbclass"
-alias rbd="cd /home/makers/Dotfiles"
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
