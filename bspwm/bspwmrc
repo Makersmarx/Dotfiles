@@ -10,7 +10,7 @@ numlockx on &
 picom -b &
 dunst -conf ~/.config/dunst/dunstrc &
 autocutsel &
-feh --bg-fill ~/Pictures/Wallpapers/gruvbox.png &
+feh --bg-fill ~/Pictures/Wallpapers/pacman.png &
 wal -R 
 
 
