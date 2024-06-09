@@ -8,7 +8,7 @@ alt + Return
 
 # program launcher
 alt + d
-	rofi -show drun
+	sh $HOME/.config/rofi/bin/{launcher}
 
 # browser
 alt + g
